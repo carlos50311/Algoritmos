@@ -1,0 +1,14 @@
+/home/carlos/Documentos/CursoCsharp/bin/Debug/net8.0/CursoCsharp
+/home/carlos/Documentos/CursoCsharp/bin/Debug/net8.0/CursoCsharp.deps.json
+/home/carlos/Documentos/CursoCsharp/bin/Debug/net8.0/CursoCsharp.runtimeconfig.json
+/home/carlos/Documentos/CursoCsharp/bin/Debug/net8.0/CursoCsharp.dll
+/home/carlos/Documentos/CursoCsharp/bin/Debug/net8.0/CursoCsharp.pdb
+/home/carlos/Documentos/CursoCsharp/obj/Debug/net8.0/CursoCsharp.GeneratedMSBuildEditorConfig.editorconfig
+/home/carlos/Documentos/CursoCsharp/obj/Debug/net8.0/CursoCsharp.AssemblyInfoInputs.cache
+/home/carlos/Documentos/CursoCsharp/obj/Debug/net8.0/CursoCsharp.AssemblyInfo.cs
+/home/carlos/Documentos/CursoCsharp/obj/Debug/net8.0/CursoCsharp.csproj.CoreCompileInputs.cache
+/home/carlos/Documentos/CursoCsharp/obj/Debug/net8.0/CursoCsharp.dll
+/home/carlos/Documentos/CursoCsharp/obj/Debug/net8.0/refint/CursoCsharp.dll
+/home/carlos/Documentos/CursoCsharp/obj/Debug/net8.0/CursoCsharp.pdb
+/home/carlos/Documentos/CursoCsharp/obj/Debug/net8.0/CursoCsharp.genruntimeconfig.cache
+/home/carlos/Documentos/CursoCsharp/obj/Debug/net8.0/ref/CursoCsharp.dll
