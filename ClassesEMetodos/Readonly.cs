@@ -2,7 +2,7 @@
 
 public class Cliente
 {
-    public string Nome;
+    public string? Nome;
 
     //Transforma o atributo e um atributo imutavel, estamos falando do readonly
     readonly DateTime Nascimento;
