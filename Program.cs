@@ -1,4 +1,5 @@
-﻿using CursoCsharp;
+﻿using System.Collections;
+using CursoCsharp;
 
 namespace CursoCSharp
 {
@@ -52,6 +53,12 @@ namespace CursoCSharp
                 {"Struct Vs Class - Classes e Métodos", StructVsClass.Executar},
                 {"Valor Vs Refencia - Classes e Métodos", ValorVsReferencia.Executar},
                 {"Parametros Por Referencia - Classes e Métodos", ParametrosPorReferencia.Executar},
+
+                // Coleções 
+                { "Array - Coleções", ExemploArray.Executar},
+                { "List - Coleções", ColecoesList.Executar},
+                { "ArrayList - Coleções", ColecoesArrayList.Executar},
+                { "Set - Coleções", ColecoesSet.Executar},
             });
 
             central.SelecionarEExecutar();

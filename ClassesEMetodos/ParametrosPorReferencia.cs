@@ -7,9 +7,10 @@ public class ParametrosPorReferencia
         numero = numero + 1000;
     }
 
-    void AlterarOut()
+    static void AlterarOut(out int numero)
     {
-
+        numero = 0;
+        numero = numero + 15;
     }
 
     public static void Executar()
@@ -17,5 +18,11 @@ public class ParametrosPorReferencia
         int a = 3;
         AlterarRef(ref a);
         Console.WriteLine(a);
+
+
+
+        int b;
+        AlterarOut(out b);
+        Console.WriteLine(b);
     }
 }

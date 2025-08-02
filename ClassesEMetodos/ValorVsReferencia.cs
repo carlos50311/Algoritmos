@@ -2,7 +2,7 @@
 
 class Dependentes
 {
-    public string Nome;
+    public string? Nome;
     public int Idade;
 }
 
