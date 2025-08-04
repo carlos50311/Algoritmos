@@ -5,13 +5,25 @@ public class Produto
     public string Nome = String.Empty;
     public double Preco = 0.0;
 
-
     public Produto(string nome, double preco)
     {
         Nome = nome;
         Preco = preco;
     }
 
+    public override bool Equals(object? obj)
+    {
+        if (obj is Produto outro)
+        {
+            return Nome == outro.Nome && Preco == outro.Preco;
+        }
+        return false;
+    }
+
+    public override int GetHashCode()
+    {
+        return HashCode.Combine(Nome, Preco);
+    }
 }
 
 

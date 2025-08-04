@@ -1,0 +1,15 @@
+﻿namespace CursoCsharp;
+
+public class Igualdades
+{
+    public static void Executar()
+    {
+        var p1 = new Produto("Caneta", 1.89);
+        var p2 = new Produto("Caneta", 1.89);
+        Produto p3 = p2;
+
+        Console.WriteLine(p1 == p2);
+        Console.WriteLine(p3 == p2);
+        Console.WriteLine(p2.Equals(p1));
+    }
+}
