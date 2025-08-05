@@ -10,7 +10,7 @@ namespace CursoCSharp
 
             var central = new CentralDeExercicios(new Dictionary<string, Action>() {
                 //Fundamentos
-                { "Primeiro Programa - Fundamentos", PrimeiroPrograma.Executar},
+                {"Primeiro Programa - Fundamentos", PrimeiroPrograma.Executar},
                 {"Comentários - Fundamentos", Comentarios.Executar},
                 {"Variaveis e Constantes - Fundamentos", VariaveisEConstantes.Executar},
                 {"Inferência - Fundamentos", Inferencia.Executar},
@@ -63,6 +63,9 @@ namespace CursoCSharp
                 { "Igualdade - Coleções", Igualdades.Executar},
                 { "Stack - Coleções", ColecoesStack.Executar},
                 { "Dictionary - Coleções", Dictionary.Executar},
+
+                //OO
+                {"Herança - Orientação a Objetos", Heranca.Exeutar}
             });
 
             central.SelecionarEExecutar();

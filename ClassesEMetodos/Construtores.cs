@@ -1,13 +1,13 @@
 ﻿namespace CursoCsharp;
 
-public class Carro
+public class Moto
 {
     public string? Modelo;
     public string? Fabricante;
     public int Ano;
 
-    public Carro() { }
-    public Carro(string modelo, string fabricante, int ano)
+    public Moto() { }
+    public Moto(string modelo, string fabricante, int ano)
     {
         Modelo = modelo;
         Fabricante = fabricante;
@@ -27,18 +27,18 @@ public class Construtores
 {
     public static void Executar()
     {
-        Carro carro = new()
+        Moto Moto = new()
         {
             Fabricante = "BMW",
             Modelo = "325i",
             Ano = 2017
         };
 
-        Console.WriteLine($"{carro.Fabricante} {carro.Modelo} {carro.Ano}");
+        Console.WriteLine($"{Moto.Fabricante} {Moto.Modelo} {Moto.Ano}");
 
-        Carro carro2 = new("ka", "Ford", 2019);
+        Moto Moto2 = new("ka", "Ford", 2019);
 
-        Console.WriteLine(carro2.Acelerar());
+        Console.WriteLine(Moto2.Acelerar());
 
 
     }
