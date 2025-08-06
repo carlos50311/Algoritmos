@@ -22,7 +22,7 @@ public class Dictionary
         Console.WriteLine(filmes.ContainsValue("Amnesia"));
         Console.WriteLine("Removeu? " + filmes.Remove(2004));
 
-        filmes.TryGetValue(2006, out string filme2006);
+        filmes.TryGetValue(2006, out string? filme2006);
         Console.WriteLine("Filmes " + filme2006);
 
         foreach (var chave in filmes.Keys)

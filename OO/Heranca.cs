@@ -90,5 +90,23 @@ public class Heranca
         Console.WriteLine(carro2.Acelerar());
         Console.WriteLine(carro2.Acelerar());
 
+
+        Console.WriteLine("Exemplo de Polimofismo com a classe ferrari");
+        Carro carro3 = new Ferrari();
+
+        Console.WriteLine(carro3.Acelerar());
+        Console.WriteLine(carro3.Acelerar());
+        Console.WriteLine(carro3.Acelerar());
+
+        Console.WriteLine(carro3.Frear());
+
+        Console.WriteLine("Exemplo de polimofismo com a classe uno");
+        carro3 = new Uno();
+
+        Console.WriteLine(carro3.Acelerar());
+        Console.WriteLine(carro3.Acelerar());
+        Console.WriteLine(carro3.Acelerar());
+
+        Console.WriteLine(carro3.Frear());
     }
 }
