@@ -65,7 +65,8 @@ namespace CursoCSharp
                 { "Dictionary - Coleções", Dictionary.Executar},
 
                 //OO
-                {"Herança - Orientação a Objetos", Heranca.Exeutar}
+                {"Herança - Orientação a Objetos", Heranca.Executar},
+                {"Construtor This - Orientação a Objetos", ConstrutorThis.Executar},
             });
 
             central.SelecionarEExecutar();

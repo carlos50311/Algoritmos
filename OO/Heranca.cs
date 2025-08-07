@@ -69,7 +69,7 @@ public class Ferrari : Carro
 }
 public class Heranca
 {
-    public static void Exeutar()
+    public static void Executar()
     {
         Console.WriteLine("Uno...");
         Uno carro1 = new();
